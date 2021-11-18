@@ -17,3 +17,4 @@ for i, tweet in enumerate(scraper.get_items()):
 # to write all fetched data into json file tweets.json
 with open("tweets.json", "w", encoding="utf-8") as file:
     json.dump(tweets, file, ensure_ascii=False, indent=4)
+# testing push and commit on github
